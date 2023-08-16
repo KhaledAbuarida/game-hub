@@ -12,4 +12,4 @@ function GameCardSkeleton() {
   )
 }
 
-export default GameCardSkeleton
+export default GameCardSkeleton;
