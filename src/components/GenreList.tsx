@@ -14,7 +14,7 @@ function GenreList({selectedGenre, onSelectedGenre}: Props) {
     const { data, isLoading } = useGenres();
 
     return (
-        <List paddingY={9}>
+        <List paddingY={5}>
             {isLoading && skeletons.map(s => <GenreSkeleton key={s}/>)}
             {data.map(genre => 
                 <ListItem key={genre.id}>
