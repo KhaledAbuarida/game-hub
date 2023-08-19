@@ -1,7 +1,8 @@
+import noImage from '../assets/600x400.png'
 
 const cropImageByUrl = (url: string) => {
     if(!url)
-        return '';
+        return noImage;
 
     const target = 'media/'
     const index = url.indexOf(target) + target.length;
