@@ -1,4 +1,4 @@
-import { Card, HStack, Skeleton, SkeletonCircle, SkeletonText } from "@chakra-ui/react"
+import { HStack, Skeleton } from "@chakra-ui/react"
 
 function GenreSkeleton() {
     return (
