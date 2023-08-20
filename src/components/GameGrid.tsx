@@ -23,13 +23,11 @@ function GameGrid({gameQuery}: Props) {
                         <GameCardSkeleton />
                     </GameCardContainer>
                 )}
-                {data.length ? 
-                    data.map(game =>
+                {   data.map(game =>
                         <GameCardContainer  key={game.id}>
                             <GameCard game={game}></GameCard>
                         </GameCardContainer> 
-                    )
-                    : <h1> NO GAMES FOUND!</h1>}   
+                    )}   
                 
             </SimpleGrid>
         </>
