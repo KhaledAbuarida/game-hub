@@ -14,7 +14,7 @@ function SortSelector({onSelectOrder, sortOrder}: Props) {
         {value: 'name' , name: 'Name'},
         {value: '-released' , name: 'Release date'},
         {value: '-metacritic' , name: 'Popularity'},
-        {value: 'rating' , name: 'Average rating'}
+        {value: '-rating' , name: 'Average rating'}
     ]
 
     const currentSortOrder = sortOrders.find(order => order.value === sortOrder);

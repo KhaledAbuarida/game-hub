@@ -1,4 +1,4 @@
-import noImage from '../assets/600x400.png'
+import noImage from '../assets/no-image-placeholder.png'
 
 const cropImageByUrl = (url: string) => {
     if(!url)
