@@ -1,3 +1,14 @@
+# GameHub 
+is a game search web application to help you find new games based on multiple filters.
+
+Feel free to take a look at the site from this link:
+- https://game-hub-khaledabuarida.vercel.app/
+
+it's build with React and TypeScript pulls games data from RAWG.io API, deploying it on Vercel.
+
+This project added to me new experiences and knowledge to deal with the APIs, i've focused on building reusable components. learning alot from handling the errors that i faced while learning.
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
